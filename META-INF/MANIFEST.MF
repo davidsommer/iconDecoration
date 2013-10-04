@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IconDecorator
+Bundle-SymbolicName: ch.dasoft.icondecorator;singleton:=true
+Bundle-Version: 1.1.0.qualifier
+Bundle-Activator: ch.dasoft.icondecorator.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.core.filesystem,
+ org.eclipse.ui.ide
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: dasoft.ch
+Export-Package: ch.dasoft.icondecorator,
+ ch.dasoft.icondecorator.decorators,
+ ch.dasoft.icondecorator.utils

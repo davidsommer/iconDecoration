@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.decorators">
+      <decorator
+            label="Icon Decorator"
+            state="true"
+            class="ch.dasoft.icondecorator.decorators.IconsLabelDecorator"
+            id="ch.dasoft.icondecorator.decorators">
+         <enablement>
+                  <objectClass
+                        name="org.eclipse.core.resources.IFile">
+                  </objectClass>
+         </enablement>
+         <description>
+            Show all image resources as icons.
+         </description>
+      </decorator>
+   </extension>
+
+</plugin>
