@@ -1,7 +1,8 @@
 *.class
-@dot/*
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+@dot/*
